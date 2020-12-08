@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mapbox-gh-pages-test/static/css/main.9c63a474.chunk.css",
-    "main.js": "/mapbox-gh-pages-test/static/js/main.d4defb19.chunk.js",
-    "main.js.map": "/mapbox-gh-pages-test/static/js/main.d4defb19.chunk.js.map",
+    "main.js": "/mapbox-gh-pages-test/static/js/main.9ce80e2b.chunk.js",
+    "main.js.map": "/mapbox-gh-pages-test/static/js/main.9ce80e2b.chunk.js.map",
     "runtime-main.js": "/mapbox-gh-pages-test/static/js/runtime-main.7a78940b.js",
     "runtime-main.js.map": "/mapbox-gh-pages-test/static/js/runtime-main.7a78940b.js.map",
     "static/js/2.86bff565.chunk.js": "/mapbox-gh-pages-test/static/js/2.86bff565.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.7a78940b.js",
     "static/js/2.86bff565.chunk.js",
     "static/css/main.9c63a474.chunk.css",
-    "static/js/main.d4defb19.chunk.js"
+    "static/js/main.9ce80e2b.chunk.js"
   ]
 }
