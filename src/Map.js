@@ -31,7 +31,7 @@ const Map = () => {
     });
   }, []);
 
-  return <div class="map__container" ref={containerRef} />;
+  return <div className="map__container" ref={containerRef} />;
 };
 
 export default Map;
