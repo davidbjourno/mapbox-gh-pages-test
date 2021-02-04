@@ -2,8 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "./Map.css";
 
-mapboxgl.accessToken =
-  "pk.eyJ1IjoiYW1uZXN0eWRlY29kZXJzIiwiYSI6ImNraWc4MW5jczBjb2EyeG1xems1M3ExOHAifQ.eDn4KXZ5vR_sHKMzvjTapw";
+mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 const Map = () => {
   const [viewport, setViewport] = useState({
@@ -29,7 +28,7 @@ const Map = () => {
         zoom: map.getZoom().toFixed(2)
       });
     });
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return <div className="map__container" ref={containerRef} />;
 };
